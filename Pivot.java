@@ -8,6 +8,8 @@ class Main {
        int high = arr.length-1;
        while(low <= high){
            int mid = low + (high - low)/2;
+
+           
            
            if(mid < high && arr[mid] > arr[mid+1]){
                return mid;
