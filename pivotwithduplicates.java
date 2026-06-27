@@ -5,6 +5,7 @@ class Main {
     public static int findPivot(int[] arr) {
 
         int low = 0;
+        
         int high = arr.length - 1;
 
         while (low <= high) {
